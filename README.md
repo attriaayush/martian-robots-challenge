@@ -11,7 +11,8 @@ In order to run this project, please follow the steps mentioned below:
 * To test/run custom inputs please enter your inputs to ```test/userEntered.txt``` by removing the existing inputs and run ```npm start```.
 
 Note: Running ```npm start``` will trigger the sample tests and also include the inputs from  ```test/userEntered.txt``` file.
-
+## Future Enhancements 
+One of the future enhancements can be a UI extension to provide a visual representation of the rover's initial position and their final position after the required commands have been carried out (including rover's lost scents).
 ## Challenge
 The surface of Mars can be modelled by a rectangular grid around which robots are able to
 move according to instructions provided from Earth. You are to write a program that
