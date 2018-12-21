@@ -1,8 +1,15 @@
+const fs = require('fs');
+const path = require('path');
+
 const { process } = require('./controllers/instructions');
-const input = '5 3\n1 1 E\nRFRFRFRF\n3 2 N\nFRRFLLFFRRFLL\n0 3 W\nLLFFFLFLFL';
+const { evaluate } = require('./controllers/evaluate');
+const { output } = require('./controllers/output');
+
+const input = (fs.readFileSync(path.join(__dirname, '..' + '/test/sample.txt'))).toString();
 
 (function () {
   try {
-    console.log(JSON.stringify(process(input), null, 4));
-  } catch(e) { console.log(`Error: ${e.message}`) }
+    let result = output(evaluate(process(input)));
+    console.log(`Output:\n${result}`);
+  } catch (e) { console.log(`Error: ${e.message}`) }
 })();
