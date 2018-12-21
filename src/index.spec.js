@@ -14,7 +14,7 @@ describe('Testing the sample inputs', () => {
   });
   it('should return the correct outputs for the given data without LOST scents', () => {
     let resultString = output(evaluate(result));
-    let expectedOutput = `1 1 E\n3 3 N LOST\n3 3 N LOST`;
-    assert(result, expectedOutput);
+    let expectedOutput = `1 1 E\n3 3 N LOST\n2 3 S`
+    assert.equal(resultString, expectedOutput);
   })
 });
