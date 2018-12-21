@@ -1,6 +1,16 @@
 # Martian-Robots-Challenge
 ## Usage
-* Details on usage will will go here.
+In order to run this project, please follow the steps mentioned below: 
+
+### Prerequisites
+  * Node 8.9.11 or above & npm (package manager)
+  * To run the sample tests, it is required to download two dev-dependencies by running ```npm install``` in your terminal at the root level of this project.
+
+### Steps
+* To run the sample input tests please run ```npm run test``` at the root level of this project.
+* To test/run custom inputs please enter your inputs to ```test/userEntered.txt``` by removing the existing inputs and run ```npm start```.
+
+Note: Running ```npm start``` will trigger the sample tests and also include the inputs from  ```test/userEntered.txt``` file.
 
 ## Challenge
 The surface of Mars can be modelled by a rectangular grid around which robots are able to
