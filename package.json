@@ -4,7 +4,7 @@
   "description": "Martian Robots Challenege ",
   "main": "src/index.js",
   "scripts": {
-    "start": "npm run test && node src/index.js",
+    "start": "node src/index.js",
     "test": "mocha src/**.spec.js"
   },
   "repository": {

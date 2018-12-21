@@ -7,10 +7,9 @@ In order to run this project, please follow the steps mentioned below:
   * To run the sample tests, it is required to download two dev-dependencies by running ```npm install``` in your terminal at the root level of this project.
 
 ### Steps
-* To run the sample input tests please run ```npm run test``` at the root level of this project.
-* To test/run custom inputs please enter your inputs to ```test/userEntered.txt``` by removing the existing inputs and run ```npm start```.
+* To run the sample input tests please run ```npm run test``` after you have installed the dev-dependencies at the root level of this project.
+* To run custom inputs please enter your inputs to ```test/userEntered.txt``` by removing the existing inputs and run ```npm start``` to start the program.
 
-Note: Running ```npm start``` will trigger the sample tests and also include the inputs from  ```test/userEntered.txt``` file.
 ## Future Enhancements 
 One of the future enhancements can be a UI extension to provide a visual representation of the rover's initial position and their final position after the required commands have been carried out (including rover's lost scents).
 ## Challenge
