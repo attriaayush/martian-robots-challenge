@@ -5,7 +5,7 @@ const { process } = require('./controllers/instructions');
 const { evaluate } = require('./controllers/evaluate');
 const { output } = require('./controllers/output');
 
-const input = (fs.readFileSync(path.join(__dirname, '..' + '/test/sample.txt'))).toString();
+const input = (fs.readFileSync(path.join(__dirname, '..' + '/test/userEntered.txt'))).toString();
 
 (function () {
   try {
